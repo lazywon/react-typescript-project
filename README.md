@@ -1,1 +1,1 @@
-UPI Global Web Service
+Web Service
