@@ -1,0 +1,50 @@
+.error_w {
+  border: 0px;
+  height: 800px;
+}
+.error {
+  position: relative;
+  left: 50%;
+  top: 38%;
+  width: 835px;
+  margin-left: -425px;
+  height: 450px;
+  margin-top: -225px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background: #fff url(../../../public/images/img_error.gif) no-repeat 92px 96px;
+  background-size: 157px 133px;
+}
+.error ul {
+  position: absolute;
+  left: 280px;
+  right: 20px;
+  top: 100px;
+}
+.error li {
+  list-style: none;
+  margin-bottom: 22px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #666;
+}
+.error li:first-child {
+  font-size: 27px;
+  letter-spacing: -2px;
+}
+.error li:last-child {
+  color: red;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 28px;
+}
+.error p {
+  margin: 0 auto;
+  width: 750px;
+  text-align: center;
+  position: relative;
+  bottom: -330px;
+  color: #ff2d2d;
+  padding: 20px 50px;
+  background: #fdfdfd;
+}

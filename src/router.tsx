@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Home from './pages/Home';
+import ErrorPage from './pages/Error/Error';
+import HomePage from './pages/Home/Home';
 
 interface RouterElement {
   id: number;
@@ -13,7 +14,13 @@ const routerData: RouterElement[] = [
     id: 0,
     path: '/',
     label: 'Home',
-    element: <Home />,
+    element: <HomePage />,
+  },
+  {
+    id: 1,
+    path: '*',
+    label: 'Error',
+    element: <ErrorPage />,
   },
 ];
 
